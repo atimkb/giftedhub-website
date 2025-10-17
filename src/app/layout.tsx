@@ -4,6 +4,7 @@ import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
+import NoticePopup from "@/components/notice-popup";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -48,6 +49,7 @@ export default function RootLayout({
         <main className="min-h-screen">
           {children}
         </main>
+        <NoticePopup />
         <Footer />
         <Toaster />
       </body>
