@@ -79,21 +79,6 @@ export function Footer() {
                   Policies
                 </Link>
               </li>
-              <li>
-                <Link href="/policies/shipping" className="text-gray-300 hover:text-white transition-colors">
-                  Shipping Info
-                </Link>
-              </li>
-              <li>
-                <Link href="/policies/returns" className="text-gray-300 hover:text-white transition-colors">
-                  Returns & Exchanges
-                </Link>
-              </li>
-              <li>
-                <Link href="/policies/faq" className="text-gray-300 hover:text-white transition-colors">
-                  FAQ
-                </Link>
-              </li>
             </ul>
           </div>
 
