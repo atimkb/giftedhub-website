@@ -38,7 +38,7 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/gift-boxes" className="text-gray-300 hover:text-white transition-colors">
+                <Link href="/curated-boxes" className="text-gray-300 hover:text-white transition-colors">
                   Curated Gift Boxes
                 </Link>
               </li>
@@ -48,17 +48,12 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/personalized" className="text-gray-300 hover:text-white transition-colors">
-                  Personalized Gifts
+                <Link href="/individual-products" className="text-gray-300 hover:text-white transition-colors">
+                  Individual Products
                 </Link>
               </li>
               <li>
-                <Link href="/experiences" className="text-gray-300 hover:text-white transition-colors">
-                  Experience Gifts
-                </Link>
-              </li>
-              <li>
-                <Link href="/subscriptions" className="text-gray-300 hover:text-white transition-colors">
+                <Link href="/subscription-boxes" className="text-gray-300 hover:text-white transition-colors">
                   Subscription Boxes
                 </Link>
               </li>
